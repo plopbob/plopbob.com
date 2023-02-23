@@ -1,20 +1,87 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>
-        plopbob#0351
-      </title>
-      <style>
-        img {
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-        }
-        </style>
-</head>
-  <body style="background-color:rgb(0, 0, 0);">
-    <p style="font-weight:900;color: white;size: 50cm;text-align: center;font-size: xxx-large;">plopbob#0351</p>
-    <p style="font-weight:800;color: white;size: 50cm;text-align: center;font-size: xx-lage;">Ben is Pro gamer + Pro Valorant Player</p>
-    <img src="assets/panda.png" alt="Panda" class="center" >
-    <p style="font-weight:800;color: white;size: 50cm;text-align: center;font-size: xx-lage;">WillyHam Cringe Insider</p>
-    </body>
-  </html>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>❤️PB❤️ WEBSITE</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.jpg">
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">❤️PB❤️</a>
+      <ul class="navigation">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="https://discord.gg/MwprQqwF" target="_blank">Discord</a></li>
+      </ul>
+    </header>
+    <section class="parallax">
+      <h2 id="text">Welcome to ❤️PB❤️</h2>
+      <img src="images/monutain_01.png" id="m1" />
+      <img src="images/trees_02.png" id="t2" />
+      <img src="images/monutain_02.png" id="m2" />
+      <img src="images/trees_01.png" id="t1" />
+      <img src="images/man.png" id="man" />
+      <img src="images/plants.png" id="plants" />
+    </section>
+    <section class="sec">
+      <h2>Hello We are ❤️PB❤️ Clan</h2>
+      <p>
+        <br><br> <br><br>We are a rust group who is focused mainly on pvp and raids.
+        <br></br>We are now looking to move towards more main servers that need more
+        players for this we will be needing more members in our group, this obviously
+        means we will be needing more people to join. for this we will be needing people
+        to send there join application in our discord. You can join this and make your
+         aplication by clicking the Discord Link at the top right of your screen.
+        
+      </p>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    <script>
+        gsap.from("#m1",{
+            scrollTrigger : {
+                scrub: true
+            },
+            y: 150,
+        })
+        gsap.from("#m2",{
+            scrollTrigger : {
+                scrub: true
+            },
+            y: 50,
+        })
+        gsap.from("#t2",{
+            scrollTrigger : {
+                scrub: true
+            },
+            x: -50,
+        })
+        gsap.from("#t1",{
+            scrollTrigger : {
+                scrub: true
+            },
+            x: 50,
+        })
+        gsap.from("#man",{
+            scrollTrigger : {
+                scrub: true
+            },
+            x: -250,
+        })
+        gsap.from("#plants",{
+            scrollTrigger : {
+                scrub: true
+            },
+            x: -50,
+        })
+        gsap.from("#text",{
+            scrollTrigger : {
+                scrub: true
+            },
+            x: 300,
+        })
+    </script>
+  </body>
+</html>
